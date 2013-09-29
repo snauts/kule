@@ -64,6 +64,6 @@ input.Bind("Right", false, util.KeyDown(Select(1)))
 
 input.Bind("Drop", false, util.KeyDown(function() util.Goto("kule") end))
 
-Level(state.progress)
+Level(state.current)
 Help()
 Info()
